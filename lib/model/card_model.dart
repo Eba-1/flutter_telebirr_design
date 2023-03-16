@@ -4,7 +4,7 @@ class CartModel extends ChangeNotifier{
   final List _services = [
     ["Deposit Cash", "lib/icons/deposit.png"],
     ["Send Money", "lib/icons/send.png"],
-    ["Receive Payment", "lib/icons/receive.png"],
+    ["Receive Payment", "lib/icons/recieve.png"],
     ["Withdraw Cash", "lib/icons/withdraw.png"],
   ];
 

@@ -54,6 +54,24 @@ class _HomeScreenState extends State<HomeScreen> {
               color: Colors.black,
             ),
           ),
+          actions: [
+            Padding(
+              padding: const EdgeInsets.only(right: 18.0),
+              child: Row(
+                children: [
+                  Icon(
+                    Icons.add,
+                    color: Colors.black,
+                  ),
+                  const SizedBox(width: 7.0,),
+                  Icon(
+                    Icons.question_mark,
+                    color: Colors.black,
+                  ),
+                ],
+              ),
+            ),
+          ],
         ),
         body: Padding(
           padding: const EdgeInsets.only(top: 50.0),
@@ -203,15 +221,15 @@ class _UpperPartState extends State<_UpperPart> {
                               },
                               child: !_isHidden
                                   ? Icon(
-                                Icons.visibility,
-                                size: 17.0,
-                                color: Colors.grey[200],
-                              )
+                                      Icons.visibility,
+                                      size: 17.0,
+                                      color: Colors.grey[200],
+                                    )
                                   : Icon(
-                                Icons.visibility_off,
-                                size: 17.0,
-                                color: Colors.grey[200],
-                              ),
+                                      Icons.visibility_off,
+                                      size: 17.0,
+                                      color: Colors.grey[200],
+                                    ),
                             ),
                             const SizedBox(
                               width: 10.0,

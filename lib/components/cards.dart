@@ -23,7 +23,7 @@ class BuildCard extends StatelessWidget {
         children: [
           Image.asset(
             imagePath,
-            height: 30,
+            height: 40,
           ),
           GestureDetector(
             onTap: () {
