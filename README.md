@@ -1,16 +1,28 @@
-# flutter_telebirr_design
+# Telebirr
 
-A new Flutter project.
+Telebirr is a fin-tech product that banks can use so that their customers can make UPI payments, and also make transactions through an app. I wasn't happy with how the home page of the original Telebirr applicaiton looked like. Therefore, I decided to build a single page application that has a better design. After the design gets accepted, I will surely continue on developing the rest of the pages and also the whole functionality.
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get started with the project, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. git clone "https://github.com/Eba-1/flutter_telebirr_design.git"
+2. cd flutter_ telebirr_design
+3. flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Dependencies
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project depends on the following packages:
+
+- lottie: to intergrate cool animations into your app.
+- google_fonts: to customize the texts.
+- provider: a wrapper around InheritedWidget to make them easier to use and more reusable.
+- google_nav_bar: custom navigation bar.
+- curved_navigation_bar: the other navigation.
