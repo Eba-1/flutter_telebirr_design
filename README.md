@@ -21,8 +21,8 @@ To get started with the project, follow these steps:
 
 This project depends on the following packages:
 
-- lottie: to intergrate cool animations into your app.
-- google_fonts: to customize the texts.
-- provider: a wrapper around InheritedWidget to make them easier to use and more reusable.
-- google_nav_bar: custom navigation bar.
-- curved_navigation_bar: the other navigation.
+- [lottie](https://pub.dev/packages/lottie): to intergrate cool animations into your app.
+- [google_fonts](https://pub.dev/packages/google_fonts): to customize the texts.
+- [provider](https://pub.dev/packages/provider): a wrapper around InheritedWidget to make them easier to use and more reusable. 
+- [curved_navigation_bar](https://pub.dev/packages/curved_navigation_bar): for customizing the bottom navigation bar.
+- [google_nav_bar](https://pub.dev/packages/google_nav_bar): (optional) to customize the bottom navigation bar.
